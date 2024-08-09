@@ -1,0 +1,10 @@
+header{
+    box-shadow: 0px 1px 10px 0px  rgb(15, 233, 33);
+    background-color: rgba(15, 233, 33, 0.247);
+}
+
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

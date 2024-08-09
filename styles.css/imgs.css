@@ -1,0 +1,29 @@
+.madsuke{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 75px;
+    border: ridge;
+    margin: 8px;
+    
+}
+
+.book_img{
+    height: 120px;
+    filter: drop-shadow(0px 0px 5px rgb(15, 233, 33));
+    
+}
+
+.heart_img{
+    height: 15px;
+    transition: ease-in-out 300ms;
+}
+
+.heart_img:hover{
+    transform: rotateY(180deg);
+
+}
+
+.message_img{
+    height: 23px;
+}
