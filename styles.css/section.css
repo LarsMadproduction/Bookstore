@@ -6,6 +6,12 @@ section{
     background-color: #0c55128c;
 }
 
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .book_window{
     display: flex;
     justify-content: center;

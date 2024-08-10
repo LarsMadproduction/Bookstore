@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookstore</title>
+    <script src="./scripts/template.js"></script>
     <script src="./scripts/db.js"></script>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="./styles.css/imgs.css" />
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="./styles.css/table.css">
     <link rel="stylesheet" href="./styles.css/scrollbar.css">
   </head>
-  <body>
+  <body onload="init()">
     <header>
       <div class="header max_widht">
         <img class="madsuke" src="./img/madsuke.png" alt="" />
@@ -22,65 +23,8 @@
       </div>
     </header>
     <section>
-        <div class="book_window max_widht">
-            <div class="shadow"><h2>Die Geheimnisse des Ozeans</h2></div>
-            <div class="shadow bg"><img class="book_img" src="./img/book.png" alt=""></div>
-            <div class="space_place">
-                <span>19,99€</span> 
-                <div class="like">
-                <span>1250</span> 
-                <img class="heart_img" src="./img/notliked.png" alt="">
-            </div>
-            </div>
-            <div class="shadow">
-            <table class="table_data">
-                <tr>
-                    <th>Author</th>
-                    <td>:Clara Meer</td>
-                </tr>
-                <tr>
-                    <th>Erscheinungsjahr</th>
-                    <td>:2018</td>
-                </tr>
-                <tr>
-                    <th>Genre</th>
-                    <td>:Fantasy</td>
-                </tr>
-            </table>
-            </div>
-            <div class="shadow">
-            <table class="table_data comments">
-                <tr>
-                    <th>Kommentarer:</th>
-                </tr>
-                <tr>
-                    <th>[Leser123]</th>
-                    <td>:Ein faszinierendes Abenteuerbuch, das mich von der ersten Seite an gefesselt hat.</td>
-                </tr>
-                <tr>
-                    <th>[Bookworm84]</th>
-                    <td>:Eine romantische Geschichte, die mein Herz berührt und mich zum Nachdenken gebracht hat.</td>
-                </tr>
-                <tr>
-                    <th>[FantasyFanatic]</th>
-                    <td>:Eine spannende Fantasiewelt, die ich nur schwer aus der Hand legen konnte.</td>
-                </tr>
-                <tr>
-                    <th>[SciFiGuru]</th>
-                    <td>:Ein cleverer Science-Fiction-Roman mit interessanten Zeitreise-Konzepten und Charakteren.</td>
-                </tr><tr>
-                    <th>[NovelLover]</th>
-                    <td>:Ein Buch, das voller magischer Überraschungen steckt und mich begeistert hat.</td>
-                </tr>                
-            </table>
-            </div>
-            <div class="comment">
-                <textarea class="input" placeholder="Schreibe dein Kommentar ..." name="commentary" id=""></textarea>
-                <input class="message_img" type="image" src="./img/send_com.png" value="submit">
-            </div>
+        <div id="content" class="section" >
         </div>
-
-        
     </section>
     <footer>
         <img class="madsuke" src="./img/madsuke.png" alt="" />

@@ -1,6 +1,6 @@
 let books = [
     {
-      "name": "Die Geheimnisse des Ozeans",
+      "bookname": "Die Geheimnisse des Ozeans",
       "author": "Clara Meer",
       "likes": 1250,
       "liked": true,
@@ -9,29 +9,29 @@ let books = [
       "genre": "Fantasy",
       "comments": [
         {
-          "name": "Leser123",
+          "user": "Leser123",
           "comment": "Ein faszinierendes Abenteuerbuch, das mich von der ersten Seite an gefesselt hat."
         },
         {
-          "name": "Bookworm84",
+          "user": "Bookworm84",
           "comment": "Eine romantische Geschichte, die mein Herz berührt und mich zum Nachdenken gebracht hat."
         },
         {
-          "name": "FantasyFanatic",
+          "user": "FantasyFanatic",
           "comment": "Eine spannende Fantasiewelt, die ich nur schwer aus der Hand legen konnte."
         },
         {
-          "name": "SciFiGuru",
+          "user": "SciFiGuru",
           "comment": "Ein cleverer Science-Fiction-Roman mit interessanten Zeitreise-Konzepten und Charakteren."
         },
         {
-          "name": "NovelLover",
+          "user": "NovelLover",
           "comment": "Ein Buch, das voller magischer Überraschungen steckt und mich begeistert hat."
         }
       ]
     },
     {
-      "name": "Der vergessene Pfad",
+      "bookname": "Der vergessene Pfad",
       "author": "Maximilian Schwarz",
       "likes": 980,
       "liked": false,
@@ -41,7 +41,7 @@ let books = [
       "comments": []
     },
     {
-      "name": "Die Farben des Himmels",
+      "bookname": "Die Farben des Himmels",
       "author": "Laura Blau",
       "likes": 1520,
       "liked": true,
@@ -50,29 +50,29 @@ let books = [
       "genre": "Romantik",
       "comments": [
         {
-          "name": "LeserPeter",
+          "user": "LeserPeter",
           "comment": "Die Handlung war fesselnd und die Charaktere unglaublich lebendig dargestellt."
         },
         {
-          "name": "BookLover21",
+          "user": "BookLover21",
           "comment": "Ein romantisches Meisterwerk, das mich tief berührt und bewegt hat."
         },
         {
-          "name": "FantasyNerd",
+          "user": "FantasyNerd",
           "comment": "Fantastische Welten und epische Abenteuer - genau mein Geschmack!"
         },
         {
-          "name": "SciFiEnthusiast",
+          "user": "SciFiEnthusiast",
           "comment": "Die Zeitreise-Elemente waren genial und haben die Story spannend gemacht."
         },
         {
-          "name": "ReadingAddict",
+          "user": "ReadingAddict",
           "comment": "Ein unvergessliches Buch, das mich auf eine magische Reise mitgenommen hat."
         }
       ]
     },
     {
-      "name": "Das Rätsel der Zeit",
+      "bookname": "Das Rätsel der Zeit",
       "author": "Alexander Weiss",
       "likes": 750,
       "liked": false,
@@ -81,17 +81,17 @@ let books = [
       "genre": "Science-Fiction",
       "comments": [
         {
-          "name": "BuchKenner",
+          "user": "BuchKenner",
           "comment": "Ein spannendes Abenteuer, das mich von Anfang an mitgerissen hat."
         },
         {
-          "name": "LeseWurm",
+          "user": "LeseWurm",
           "comment": "Die Liebesgeschichte war herzergreifend und wunderschön geschrieben."
         }
       ]
     },
     {
-      "name": "Der letzte Wächter",
+      "bookname": "Der letzte Wächter",
       "author": "Sabine Grün",
       "likes": 1300,
       "liked": true,
@@ -101,7 +101,7 @@ let books = [
       "comments": []
     },
     {
-      "name": "Im Schatten des Mondes",
+      "bookname": "Im Schatten des Mondes",
       "author": "Philipp Silber",
       "likes": 890,
       "liked": false,
@@ -110,17 +110,17 @@ let books = [
       "genre": "Science-Fiction",
       "comments": [
         {
-          "name": "BücherLiebhaber",
+          "user": "BücherLiebhaber",
           "comment": "Eine magische Reise durch eine faszinierende Fantasiewelt, absolut fesselnd."
         },
         {
-          "name": "Leseratte",
+          "user": "Leseratte",
           "comment": "Ein packender Science-Fiction-Roman, der mich zum Nachdenken gebracht hat."
         }
       ]
     },
     {
-      "name": "Jenseits der Sterne",
+      "bookname": "Jenseits der Sterne",
       "author": "Oliver Schwarz",
       "likes": 1450,
       "liked": true,
@@ -129,13 +129,13 @@ let books = [
       "genre": "Science-Fiction",
       "comments": [
         {
-          "name": "Leser123",
+          "user": "Leser123",
           "comment": "Ein fesselndes Abenteuer, das mich von Anfang bis Ende mitgerissen hat."
         }
       ]
     },
     {
-      "name": "Das verborgene Königreich",
+      "bookname": "Das verborgene Königreich",
       "author": "Elena Gold",
       "likes": 920,
       "liked": false,
@@ -144,13 +144,13 @@ let books = [
       "genre": "Fantasy",
       "comments": [
         {
-          "name": "Bookworm92",
+          "user": "Bookworm92",
           "comment": "Ein faszinierendes Buch, das mich von der ersten Seite an gefesselt hat."
         }
       ]
     },
     {
-      "name": "Liebe in Zeiten des Krieges",
+      "bookname": "Liebe in Zeiten des Krieges",
       "author": "Emilia Rot",
       "likes": 1800,
       "liked": true,
@@ -159,17 +159,20 @@ let books = [
       "genre": "Romantik",
       "comments": [
         {
-          "name": "Bibliophile23",
+          "user": "Bibliophile23",
           "comment": "Die Fantasiewelt war so lebendig, ich konnte das Buch kaum aus der Hand legen."
         },
         {
-          "name": "StorySeeker",
+          "user": "StorySeeker",
           "comment": "Eine unglaublich berührende Liebesgeschichte, die mich tief bewegt hat."
         },
         {
-          "name": "SciFiExplorer",
+          "user": "SciFiExplorer",
           "comment": "Spannende Zukunftsvisionen und interessante Charaktere machten diesen Roman einzigartig."
         }
       ]
     }
   ]
+
+  
+  
