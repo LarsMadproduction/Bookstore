@@ -27,4 +27,14 @@
 
 .message_img{
     height: 70px;
+    transition: ease-in-out 300ms;
+
+}
+
+.message_img:hover{
+    height: 55px;
+    transform: rotateZ(15deg);
+    transition: ease-in-out 300ms;
+    padding: 7.5px;
+
 }
