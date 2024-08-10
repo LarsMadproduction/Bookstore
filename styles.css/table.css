@@ -1,4 +1,20 @@
+.table_data{
+    width: 95%;
+    display: block;
+    table-layout: auto;
+    margin-bottom: 16px;
+    
+}
+
 th{
     display: flex;
     justify-content: flex-start;
+    width: 100%;
+    margin-right: 10px;
+    text-align: start;
+}
+
+td{
+    width: 100%;
+    text-align: start;
 }

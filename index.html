@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles.css/section.css">
     <link rel="stylesheet" href="./styles.css/footer.css">
     <link rel="stylesheet" href="./styles.css/table.css">
+    <link rel="stylesheet" href="./styles.css/scrollbar.css">
   </head>
   <body>
     <header>
@@ -23,10 +24,16 @@
     <section>
         <div class="book_window max_widht">
             <div class="shadow"><h2>Die Geheimnisse des Ozeans</h2></div>
-            <div class="shadow"><img class="book_img" src="./img/book.png" alt=""></div>
-            <div><span>19,99€</span> <span>1250</span> <img class="heart_img" src="./img/notliked.png" alt=""></div>
+            <div class="shadow bg"><img class="book_img" src="./img/book.png" alt=""></div>
+            <div class="space_place">
+                <span>19,99€</span> 
+                <div class="like">
+                <span>1250</span> 
+                <img class="heart_img" src="./img/notliked.png" alt="">
+            </div>
+            </div>
             <div class="shadow">
-            <table>
+            <table class="table_data">
                 <tr>
                     <th>Author</th>
                     <td>:Clara Meer</td>
@@ -42,34 +49,34 @@
             </table>
             </div>
             <div class="shadow">
-            <table>
+            <table class="table_data comments">
                 <tr>
                     <th>Kommentarer:</th>
                 </tr>
                 <tr>
-                    <td>[Leser123]</td>
+                    <th>[Leser123]</th>
                     <td>:Ein faszinierendes Abenteuerbuch, das mich von der ersten Seite an gefesselt hat.</td>
                 </tr>
                 <tr>
-                    <td>[Bookworm84]</td>
+                    <th>[Bookworm84]</th>
                     <td>:Eine romantische Geschichte, die mein Herz berührt und mich zum Nachdenken gebracht hat.</td>
                 </tr>
                 <tr>
-                    <td>[FantasyFanatic]</td>
+                    <th>[FantasyFanatic]</th>
                     <td>:Eine spannende Fantasiewelt, die ich nur schwer aus der Hand legen konnte.</td>
                 </tr>
                 <tr>
-                    <td>[SciFiGuru]</td>
+                    <th>[SciFiGuru]</th>
                     <td>:Ein cleverer Science-Fiction-Roman mit interessanten Zeitreise-Konzepten und Charakteren.</td>
                 </tr><tr>
-                    <td>[NovelLover]</td>
+                    <th>[NovelLover]</th>
                     <td>:Ein Buch, das voller magischer Überraschungen steckt und mich begeistert hat.</td>
                 </tr>                
             </table>
             </div>
             <div class="comment">
-                <input placeholder="Schreibe dein Kommentar ..." type="text">
-                <img class="message_img" src="./img/send_com.png" alt="">
+                <textarea class="input" placeholder="Schreibe dein Kommentar ..." name="commentary" id=""></textarea>
+                <input class="message_img" type="image" src="./img/send_com.png" value="submit">
             </div>
         </div>
 
