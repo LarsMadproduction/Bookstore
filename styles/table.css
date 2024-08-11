@@ -19,3 +19,9 @@ td{
     text-align: start;
     padding-bottom: 8px;
 }
+
+@media (max-width:646px) {
+    .table_data {
+        font-size: 12px;
+    }
+}

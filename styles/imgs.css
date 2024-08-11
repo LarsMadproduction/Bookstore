@@ -39,3 +39,16 @@
     padding: 7.5px;
 
 }
+
+@media (max-width:768px) {
+    .madsuke{
+        height: 50px;
+        width: 50px;       
+    }
+}
+
+@media (max-width:644px) {
+    .madsuke{
+        margin: 8px;
+    }
+}

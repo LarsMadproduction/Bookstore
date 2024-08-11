@@ -69,3 +69,12 @@ section{
     padding: 8px;
     overflow-y: auto;
 }
+
+@media (max-width:646px) {
+    .book_window {
+        width: 100%;
+        padding: 16px;
+        gap: 8px;
+        margin: 8px;
+    }
+}
